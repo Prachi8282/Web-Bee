@@ -1,1 +1,38 @@
+// HTML CODE
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WELCOME TO WEB-BEE</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+       
+    </head>
+    <body>
+     <section> 
 
+   <h1> 
+         <span >W</span>
+         <span > E</span>
+         <span >B</span>
+         <span >-</span>
+        <span  >B</span>
+        <span>E</span>
+        <span>E</span><br>
+      </h1>
+     
+<ul class="main-nav">
+<h2><li><a href="#">OVERVIEW</a></li>
+<li><a href="#">SIGN UP  </a></li></ul></h2>
+
+
+</ul>
+<div class="main-content-header">
+  <h2><a href="#" class="btn btn-full">LET'S START</a></div></h2>
+</div>
+
+ 
+  </section>
+  
+
+ 
+  </body>
+</html>
