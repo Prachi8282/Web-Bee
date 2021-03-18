@@ -1,0 +1,285 @@
+// HTML CODE
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WELCOME TO WEB-BEE</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+       
+    </head>
+    <body>
+     <section> 
+
+   <h1> 
+         <span >W</span>
+         <span > E</span>
+         <span >B</span>
+         <span >-</span>
+        <span  >B</span>
+        <span>E</span>
+        <span>E</span><br>
+      </h1>
+     
+<ul class="main-nav">
+<h2><li><a href="#">OVERVIEW</a></li>
+<li><a href="#">SIGN UP  </a></li></ul></h2>
+
+
+</ul>
+<div class="main-content-header">
+  <h2>
+  <a href="#" >
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    LET'S START</a></div>
+  </div></h2>
+</div>
+
+ 
+  </section>
+  
+
+ 
+  </body>
+</html>
+CSS FILE
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section
+{
+  background-image: url('../images/images 1.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+.main-nav
+{
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid #bf55ec;
+}
+
+
+.main-content-header{
+    width: 1180px;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+   
+}
+
+//BUTTON 
+
+a
+{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    
+}
+a:hover
+{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4;
+                0 0 25px #03e9f4;
+                0 0 50px #03e9f4;
+                0 0 200px #03e9f4;
+}
+a span
+{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1)
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+    0%
+    {
+        left: -100%;
+    }
+    50%,100%
+    {
+        left: 100%;
+    }
+}
+
+a span:nth-child(2)
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(100deg, transparent,#03e9f4);
+    animation: animate2 2s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+    0%
+    {
+        top: -100%;
+    }
+    50%,100%
+    {
+        top: 100%;
+    }
+}
+
+a span:nth-child(3)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#03e9f4);
+    animation: animate3 2s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate3
+{
+    0%
+    {
+        right: -100%;
+    }
+    50%,100%
+    {
+        right: 100%;
+    }
+}
+
+a span:nth-child(4)
+{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,#03e9f4);
+    animation: animate4 2s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate4
+{
+    0%
+    {
+        bottom: -100%;
+    }
+    50%,100%
+    {
+        bottom: 100%;
+    }
+}
+
+
+
+
+
+
+h1
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color:burlywood;
+    font-size: 5em;
+    font-family: 'Times New Roman';
+    letter-spacing: 0.1em;
+
+}
+h1  span
+{
+    opacity: 0;
+   display: inline-block;
+   animation: animate 2s linear forwards;
+
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+         filter: blur(0);
+    }
+}
+h1 span:nth-child(1)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 3s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 3.75s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 4s;
+}
+
+
+
